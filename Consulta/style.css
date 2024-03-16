@@ -1,0 +1,62 @@
+*{
+    color: white;
+    font-size: 20px;
+}
+
+body{
+    background-image: url(Image/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tabla{
+    position:absolute;
+    top: 10rem;
+    left: 12rem;
+}
+.fil{
+    padding: 10px;
+    border: black 5px groove;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px #000;
+    /*margin: 200px auto;*/
+    border: 1px solid #ffffff40;
+    /*position: absolute;*/
+
+} 
+.filter{
+
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter:blur(15px);
+    background-color: rgba(78, 78, 78, 0.2);
+}
+.separar{
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+}
+
+.espacio{
+    margin-bottom: 10px;
+}
+
+.metido{
+
+    background: rgb(112, 57, 13);
+    border-radius: 6px;
+    border: 1px solid black;
+}
+.mover{
+    position:absolute;
+    top: 8rem;
+    left: 18rem;
+    margin-top: 80px;
+}
+
+.boton{
+    text-decoration: none;
+    border: black 5px groove;
+    border: 1px solid rgb(138, 81, 17) ;
+    padding: 6px;
+    border-radius: 6px;
+}
+

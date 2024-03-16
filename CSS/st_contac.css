@@ -1,0 +1,138 @@
+
+*{
+    font-family: Averta; 
+    line-height: 1.7rem;
+}
+
+body{
+    background: linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+}
+.main{
+
+    padding: 5rem;
+    margin-top: -50px;
+    text-align: justify;
+}
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    color: Black;
+    font-size: 28px;
+}
+p{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+.main{
+    padding: 7rem;
+}
+.contener{
+    width: 85%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.fil{
+    border: black 5px groove;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px #000;
+    border: 1px solid #ffffff40;
+
+}
+.fil a{
+    color:teal;
+}
+.card{
+    margin: 20px 0;
+    padding: 40px;
+    width: 300px;
+    background-color: aliceblue;
+    
+    position:absolute;
+    left: 280px;
+}
+
+.card1{
+    margin: 20px 0;
+    padding: 40px;
+    width: 300px;
+    background-color: aliceblue;
+    
+    position:absolute;
+    left: 720px;
+}
+
+.card2{
+    margin: 20px 0;
+    padding: 40px;
+    width: 300px;
+    background-color: aliceblue;
+    
+    position:absolute;
+    left: 280px;
+    top: 550px;
+}
+
+.card3{
+    margin: 20px 0;
+    padding: 40px;
+    width: 300px;
+    background-color: aliceblue;
+    margin-inline-end: 5rem;
+    
+    position:absolute;
+    left: 720px;
+    top: 550px;
+}
+
+p.centrado{
+    text-align: center;
+}
+.navegation ul{
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+.navegation ul li{
+
+    display: inline-block;
+
+}
+.navegation ul li a{
+
+    display: block;
+    padding: 1rem 1.5rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.navegation ul li a:hover{
+
+    background: #3ba4d4; 
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.inicio{
+    background: #1F8186; 
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    border-radius: 5px;
+    transition: all 0.4s linear;
+}

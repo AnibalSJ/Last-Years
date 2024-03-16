@@ -1,0 +1,270 @@
+* {
+    font-family: Averta; 
+    color: Black;
+}
+
+h1 {
+
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+
+h2 {
+
+    color: Black;
+    font-size: 28px;
+}
+
+
+h3 {
+
+    font-size: 20px;
+    
+}
+
+p{
+    font-size: 20px;
+}
+
+.viñeta{
+    font-size: 20px;
+}
+
+body {
+    background-color: rgba(245, 245, 245, 0.849);
+    margin: 0 ;
+}
+
+.titulo{
+
+    font-size: 60px;
+}
+
+.contener{
+
+    width: 85%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+/* --------------------Encabezado con menu---------------------------------*/
+.header{
+    
+    background: linear-gradient(to right, rgba(255,255,255,0) 75%, rgba(255,255,255,1)), url(../img/Banner1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:rgb(185, 170, 170);
+    padding: 2rem 0;
+    box-shadow: 0 0 15px black;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.header a{
+
+    color:white;
+    text-decoration: none;
+}
+.logo-nav-contener{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+
+    letter-spacing: 15px;
+    font-size: 1.3em;
+    margin-left: -6px;
+    color: white;
+}
+
+.navegation ul{
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+.navegation ul li{
+
+    display: inline-block;
+
+}
+
+.navegation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navegation ul li a:hover{ 
+
+    background: rgba(170, 23, 170, 0.884)
+
+}
+
+#header{ 
+    margin: auto;
+    width: 500px;
+    position: fixed;
+    top: 85px;
+    left: -37px;
+}
+
+#header ul, ol{
+    list-style: none;
+}
+
+.nav li a{
+    background: rgb(121, 35, 35);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 5px;
+}
+.nav li a:hover{
+    background-color: rgb(250, 250, 250); 
+}
+
+.nav > li{
+    float: left;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+.nav ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+/*-------------------------------------Fin----------------------------------------.---*/
+.main{
+
+    padding: 7rem;
+    margin-top: 5px ;
+}
+
+.footer{
+
+    background: linear-gradient(to right,#03001e, #7303c0, #ec38bc, #fdeff9);
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 6rem;
+        border: black 5px groove;
+        border-radius: 6px;
+        box-shadow: 0 10px 30px #000;
+        border: 1px solid #ffffff40;
+    
+    
+}
+
+.container img {
+
+    position: absolute;
+    left: 65px;
+    top: 5px;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 100px;
+    
+}
+
+img {
+    
+    padding: 0;
+    margin: 0;
+}
+
+.slider {
+
+    width: 500px;
+    margin: auto;
+    height: 600px;
+    overflow: hidden;
+    margin-block-end: -430px;
+}
+.slider ul{
+
+    padding: 0;
+    display: flex;
+    width: 2000px;
+
+    animation: slider 20s infinite alternate;
+    animation-timing-function: linear;
+}
+.slider li{
+
+    width: 500px;
+    list-style: none;
+}
+.slider li img{
+
+    width: 500px;
+    
+}
+
+.help{
+
+    color: blue;
+}
+
+.enc{
+
+    margin-top: 30px;
+}
+
+/*Imagenes con texto y borde*/
+
+@keyframes slider{
+
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left:-500px;}
+    45% {margin-left:-500px;}
+
+    50% {margin-left:-1000px}
+    70% {margin-left:-1000px}
+
+    75% {margin-left:-1500px}
+    100% {margin-left:-1500px}
+}
+
+
+.pr{
+    width: 600px;
+    height: 400px;
+}
+
+.pie{
+    width:40px;
+    height: 40px;
+    margin-left: 50px;
+
+}
+
+.foo{
+
+    width: 85%;
+    max-width: 900px;
+    margin: 0 auto;
+
+}

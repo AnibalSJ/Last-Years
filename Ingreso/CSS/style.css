@@ -1,0 +1,190 @@
+
+*{
+        font-family: Averta; 
+        line-height: 1.7rem;
+}
+
+body{
+    background: linear-gradient(to right, #ad5389, #3c1053)
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    color: Black;
+    font-size: 28px;
+}
+p{
+    font-size: 20px;
+}
+
+.main{
+
+    padding: 5rem;
+    margin-top: -50px;
+    text-align: justify;
+}
+.contener{
+
+    width: 85%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+.navegation ul{
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+.navegation ul li{
+
+    display: inline-block;
+
+}
+
+.navegation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navegation ul li a:hover{ 
+
+    background: rgb(131, 54, 182);
+
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.inicio{
+    position: absolute;
+    top: 5px;
+    left: 250px;
+
+}
+
+/*----------------------------------SLIDER-----------------------*/
+img {
+    
+    padding: 0;
+    margin: 0;
+}
+
+.slider {
+
+    width: 700px;
+    margin: auto;
+    height: 900px;
+    overflow: hidden;
+    margin-block-end: -430px;
+}
+.slider ul{
+
+    padding: 0;
+    display: flex;
+    width: 2800px;
+
+    animation: slider 20s infinite alternate;
+    animation-timing-function: linear;
+}
+.slider li{
+
+    width: 700px;
+    list-style: none;
+}
+.slider li img{
+
+    width: 700px;
+    
+}
+
+/*Imagenes con texto y borde*/
+
+@keyframes slider{
+
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left:-700px;}
+    45% {margin-left:-700px;}
+
+    50% {margin-left:-1400px}
+    70% {margin-left:-1400px}
+
+    75% {margin-left:-2100px}
+    100% {margin-left:-2100px}
+}
+
+/*-------------------------- FIN SLIDER -------------------------*/
+
+.container img {
+
+    position: absolute;
+    left: 80px;
+    top: -7px;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 100px;
+    
+}
+
+.recuadro{
+    border: gray 5px;
+}
+
+.fil{
+    border: black 5px groove;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px #000;
+    border: 1px solid #ffffff40;
+
+}
+
+.card{
+    margin: 20px 0;
+    padding: 40px;
+    background-color: aliceblue;
+}
+
+p.frase{
+    text-align: center;
+}
+
+hr{
+    border-color: rgb(190, 0, 0);
+}
+
+center a{
+    color: black;
+}
+
+a img{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 70px;
+    right: 100px;
+}
+
+.juego{
+    color: black;
+    list-style: none;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.linea{
+    border-color: rgb(221, 28, 211);
+}
