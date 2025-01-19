@@ -76,7 +76,7 @@
 
 <hr class="linea">
     <ul> 
-        <li class="juego"><a href="http://localhost/Página/ingreso/Mapa/www/">De Regreso a casa</a></li>
+        <li class="juego"><a href="homecoming/www/">De Regreso a casa</a></li>
     </ul> 
 <hr class="linea">
 </main>

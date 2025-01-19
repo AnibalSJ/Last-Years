@@ -1,0 +1,12 @@
+@font-face {
+    font-family: GameFont;
+    src: url("Sevastopol-Interface.ttf");
+}
+
+.IIV::-webkit-media-controls-play-button,
+video::-webkit-media-controls-start-playback-button {
+    opacity: 0;
+    pointer-events: none;
+    width: 20px;
+    font.default_size: 30	
+}

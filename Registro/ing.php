@@ -1,7 +1,6 @@
 
 <?php
 
-error_reporting(0);
 include("conex.php");
 
 $contraseña = $_POST['contraseña'];
